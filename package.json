@@ -1,0 +1,35 @@
+{
+  "name": "@powerkernel/power-common",
+  "version": "0.1.0",
+  "description": "Power Kernel common libarary",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "release": "npx standard-version && git push --follow-tags origin main",
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "build": "npm run clean && tsc",
+    "clean": "del ./dist/*",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "power",
+    "kernel",
+    "common"
+  ],
+  "author": {
+    "name": "Harry Tang",
+    "email": "harry@powerkernel.com",
+    "url": "https://powerkernel.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "del-cli": "^4.0.1",
+    "husky": "^7.0.4",
+    "typescript": "^4.5.3"
+  }
+}
