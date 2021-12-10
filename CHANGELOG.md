@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/powerkernel/power-common/compare/v0.1.3...v0.1.4) (2021-12-10)
+
+
+### Bug Fixes
+
+* export typo ([d3c3389](https://github.com/powerkernel/power-common/commit/d3c33895c865057d56898e2b5c7c320ce50a0e4d))
+
 ### [0.1.3](https://github.com/powerkernel/power-common/compare/v0.1.2...v0.1.3) (2021-12-10)
 
 
