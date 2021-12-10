@@ -1,6 +1,6 @@
 {
   "name": "@powerkernel/power-common",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Power Kernel common libarary",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
