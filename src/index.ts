@@ -5,4 +5,4 @@
  */
 
 export * from "./interfaces/Entity";
-export * from "./interfaces/Validator";
+export * from "./utils/Validator";
