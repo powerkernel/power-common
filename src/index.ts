@@ -4,5 +4,5 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
-
 export * from "./interfaces/Entity";
+export * from "./interfaces/Validator";
