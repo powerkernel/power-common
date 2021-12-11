@@ -4,5 +4,7 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
-export * from "./interfaces/Entity";
-export * from "./utils/Validator";
+import Entity from "./interfaces/Entity";
+import Validator from "./utils/Validator";
+
+export { Validator, Entity };
