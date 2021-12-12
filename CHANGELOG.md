@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/powerkernel/power-common/compare/v0.1.8...v0.1.9) (2021-12-12)
+
+
+### Features
+
+* add random number generation ([993648b](https://github.com/powerkernel/power-common/commit/993648bc525213253f72683bbf1559c4d9c94a67))
+
 ### [0.1.8](https://github.com/powerkernel/power-common/compare/v0.1.7...v0.1.8) (2021-12-12)
 
 
