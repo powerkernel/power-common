@@ -53,3 +53,18 @@ describe("isPhone", () => {
     expect(Validator.isUUID(uuid)).toBe(false);
   });
 });
+
+describe("isIP", () => {
+  it("returns true if the provided input is a valid IP address", () => {
+    const ipv4 = "84.253.240.150";
+    const ipv6 = "2001:db8:3333:4444:5555:6666:7777:8888";
+    expect(Validator.isIP(ipv4)).toBe(true);
+    expect(Validator.isIP(ipv6)).toBe(true);
+  });
+  it("returns false if the provided input is a valid IP address", () => {
+    const ipv4 = "84.253.240.com";
+    const ipv6 = "2001:db8:3333:4444:5555:6666:7777:COM";
+    expect(Validator.isIP(ipv4)).toBe(false);
+    expect(Validator.isIP(ipv6)).toBe(false);
+  });
+});

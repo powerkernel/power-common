@@ -18,4 +18,8 @@ export default class Validator {
   public static isUUID(uuid: string): boolean {
     return validator.isUUID(uuid);
   }
+
+  public static isIP(ip: string): boolean {
+    return validator.isIP(ip);
+  }
 }
