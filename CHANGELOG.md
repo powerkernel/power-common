@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/powerkernel/power-common/compare/v0.1.10...v0.1.11) (2021-12-12)
+
+
+### Features
+
+* add isISODate validator ([5ba6909](https://github.com/powerkernel/power-common/commit/5ba6909b244ea1ba3b9d4c870df2e7c31a49e503))
+
 ### [0.1.10](https://github.com/powerkernel/power-common/compare/v0.1.9...v0.1.10) (2021-12-12)
 
 
