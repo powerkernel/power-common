@@ -10,7 +10,12 @@ export default class Validator {
   public static isPhoneNumber(number: string): boolean {
     return validator.isMobilePhone(number, "any", { strictMode: true });
   }
+
   public static isEmail(email: string): boolean {
     return validator.isEmail(email);
+  }
+
+  public static isUUID(uuid: string): boolean {
+    return validator.isUUID(uuid);
   }
 }
