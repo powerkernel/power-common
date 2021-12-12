@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/powerkernel/power-common/compare/v0.1.7...v0.1.8) (2021-12-12)
+
+
+### Features
+
+* add isUUID validator ([4c5fac0](https://github.com/powerkernel/power-common/commit/4c5fac0c4ae41418461ff56c60498ccdc244f3bf))
+
 ### [0.1.7](https://github.com/powerkernel/power-common/compare/v0.1.6...v0.1.7) (2021-12-12)
 
 
