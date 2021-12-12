@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/powerkernel/power-common/compare/v0.1.9...v0.1.10) (2021-12-12)
+
+
+### Features
+
+* add IP address validator ([9fd450b](https://github.com/powerkernel/power-common/commit/9fd450b734ab8a98b691a93fa3abbb8bfa3d0084))
+
 ### [0.1.9](https://github.com/powerkernel/power-common/compare/v0.1.8...v0.1.9) (2021-12-12)
 
 
