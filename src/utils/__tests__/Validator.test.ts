@@ -68,3 +68,15 @@ describe("isIP", () => {
     expect(Validator.isIP(ipv6)).toBe(false);
   });
 });
+
+describe("isISODate", () => {
+  it("returns true if the provided input is a valid ISO date", () => {
+    const date = new Date("29 October 1984 12:12:12 GMT+0700").toISOString();
+    expect(Validator.isISODate(date)).toBe(true);
+  });
+
+  it("returns false if the provided input is NOT a valid ISO date", () => {
+    const date = new Date("29 October 1984 12:12:12 GMT+0700").toString();
+    expect(Validator.isISODate(date)).toBe(false);
+  });
+});
