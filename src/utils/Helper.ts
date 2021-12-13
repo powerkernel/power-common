@@ -6,8 +6,8 @@
 
 import { v4 as uuidv4 } from "uuid";
 
-export default class Helper {
-  public static uuidv4(): string {
+class Helper {
+  public static uuidV4(): string {
     return uuidv4();
   }
 
@@ -18,3 +18,5 @@ export default class Helper {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 }
+
+export default Helper;

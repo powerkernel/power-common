@@ -4,6 +4,8 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
-export default interface Entity {
-  toJson(): object;
+interface Jsonifier<T> {
+  jsonify(): T;
 }
+
+export default Jsonifier;
