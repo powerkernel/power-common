@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/powerkernel/power-common/compare/v0.1.11...v0.1.12) (2021-12-13)
+
+
+### Features
+
+* add entity abstract class ([080da15](https://github.com/powerkernel/power-common/commit/080da15bc7e91369c1da532705c68442926c0806))
+
 ### [0.1.11](https://github.com/powerkernel/power-common/compare/v0.1.10...v0.1.11) (2021-12-12)
 
 
