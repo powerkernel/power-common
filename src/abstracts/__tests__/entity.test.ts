@@ -19,28 +19,28 @@ it('passes the test for getter and setter', () => {
   expect(entity.updatedAt).toBe(date);
 });
 
-it('throws error if ID is not valid', () => {
+it('throws error if the provided `id` is not valid', () => {
   const entity = new MyEntity();
 
   expect(() => {
     entity.id = 'not_valid';
-  }).toThrow();
+  }).toThrow('Invalid `id`');
 });
 
-it('throws error if createdAt is not valid', () => {
+it('throws error if the provided `createdAt` is not valid', () => {
   const date = 'not_a_date';
   const entity = new MyEntity();
 
   expect(() => {
     entity.createdAt = date;
-  }).toThrow();
+  }).toThrow('Invalid `createdAt`');
 });
 
-it('throws error if updatedAt is not valid', () => {
+it('throws error if the provided `updatedAt` is not valid', () => {
   const date = 'not_a_date';
   const entity = new MyEntity();
 
   expect(() => {
     entity.updatedAt = date;
-  }).toThrow();
+  }).toThrow('Invalid `updatedAt`');
 });
