@@ -4,11 +4,11 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
-import validator from "validator";
+import validator from 'validator';
 
 class Validator {
   public static isPhoneNumber(number: string): boolean {
-    return validator.isMobilePhone(number, "any", { strictMode: true });
+    return validator.isMobilePhone(number, 'any', { strictMode: true });
   }
 
   public static isEmail(email: string): boolean {

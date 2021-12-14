@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
-import Validator from "./../utils/validator";
+import Validator from './../utils/validator';
 
 abstract class Entity {
   protected wrappedId!: string;
@@ -15,8 +15,8 @@ abstract class Entity {
     return this.wrappedId;
   }
   public set id(id: string) {
-    if (!Validator.isUUID(id)) {
-      throw new Error("Invalid id");
+    if (!Validator.isUuid(id)) {
+      throw new Error('Invalid id');
     }
     this.wrappedId = id;
   }
@@ -25,8 +25,8 @@ abstract class Entity {
     return this.wrappedCreatedAt;
   }
   public set createdAt(date: string) {
-    if (!Validator.isISODate(date)) {
-      throw new Error("Invalid date");
+    if (!Validator.isIsoDate(date)) {
+      throw new Error('Invalid date');
     }
     this.wrappedCreatedAt = date;
   }
@@ -35,8 +35,8 @@ abstract class Entity {
     return this.wrappedUpdatedAt;
   }
   public set updatedAt(date: string) {
-    if (!Validator.isISODate(date)) {
-      throw new Error("Invalid date");
+    if (!Validator.isIsoDate(date)) {
+      throw new Error('Invalid date');
     }
     this.wrappedUpdatedAt = date;
   }
