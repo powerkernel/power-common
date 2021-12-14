@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.15](https://github.com/powerkernel/power-common/compare/v0.1.14...v0.1.15) (2021-12-14)
+
+
+### Bug Fixes
+
+* missing Jsonifier exporting ([62f9a27](https://github.com/powerkernel/power-common/commit/62f9a27bb8a18005dbaf68ca4f5863b6f2af10b6))
+
 ### [0.1.14](https://github.com/powerkernel/power-common/compare/v0.1.13...v0.1.14) (2021-12-14)
 
 
