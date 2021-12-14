@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/powerkernel/power-common/compare/v0.1.13...v0.1.14) (2021-12-14)
+
+
+### Features
+
+* add entity testing ([f637327](https://github.com/powerkernel/power-common/commit/f63732723b555e17313afae7450399231e994190))
+
 ### [0.1.13](https://github.com/powerkernel/power-common/compare/v0.1.12...v0.1.13) (2021-12-14)
 
 ### [0.1.12](https://github.com/powerkernel/power-common/compare/v0.1.11...v0.1.12) (2021-12-13)
