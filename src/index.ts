@@ -7,5 +7,6 @@
 import Entity from './abstracts/entity';
 import Validator from './utils/validator';
 import Helper from './utils/helper';
+import Jsonifier from './interfaces/jsonifier';
 
-export { Validator, Entity, Helper };
+export { Validator, Entity, Helper, Jsonifier };
