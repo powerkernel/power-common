@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.18](https://github.com/powerkernel/power-common/compare/v0.1.17...v0.1.18) (2021-12-22)
+
+
+### Bug Fixes
+
+* missing actor exporting ([e25ade2](https://github.com/powerkernel/power-common/commit/e25ade294f221fc7bfa46a871ca76b94cde5e830))
+
 ### [0.1.17](https://github.com/powerkernel/power-common/compare/v0.1.16...v0.1.17) (2021-12-22)
 
 
