@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://github.com/powerkernel/power-common/compare/v0.1.16...v0.1.17) (2021-12-22)
+
+
+### Features
+
+* add actor type ([ef0fbc0](https://github.com/powerkernel/power-common/commit/ef0fbc02a9bf957955a7917778c72cb2a6dbf7ff))
+
 ### [0.1.16](https://github.com/powerkernel/power-common/compare/v0.1.15...v0.1.16) (2021-12-16)
 
 ### [0.1.15](https://github.com/powerkernel/power-common/compare/v0.1.14...v0.1.15) (2021-12-14)
