@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.20](https://github.com/powerkernel/power-common/compare/v0.1.19...v0.1.20) (2022-01-09)
+
+
+### Features
+
+* add observable entity ([84d3ec5](https://github.com/powerkernel/power-common/commit/84d3ec5fe25c8aef6578eb48a74428e710d17264))
+
 ### [0.1.19](https://github.com/powerkernel/power-common/compare/v0.1.18...v0.1.19) (2022-01-09)
 
 
