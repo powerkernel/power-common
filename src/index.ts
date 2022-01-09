@@ -4,22 +4,36 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
+// abstracts
 import Entity from './abstracts/entity';
+import ObservableEntity from './abstracts/observable-entity';
+
+// interfaces
+import Jsonifier from './interfaces/jsonifier';
+import Observer from './interfaces/observer';
+
+// types
+import Actor from './types/actor';
+import Event from './types/event';
+import Topics from './types/topics';
+
+// utils
 import Validator from './utils/validator';
 import Helper from './utils/helper';
 
-import Jsonifier from './interfaces/jsonifier';
-import Observer from './interfaces/observer';
-import ObservableEntity from './abstracts/observable-entity';
-
-import Actor from './types/actor';
-
+// exporting
 export {
-  Validator,
+  // abstracts
   Entity,
-  Helper,
-  Jsonifier,
-  Actor,
-  Observer,
   ObservableEntity,
+  // interfaces
+  Jsonifier,
+  Observer,
+  // types
+  Actor,
+  Event,
+  Topics,
+  // utils
+  Validator,
+  Helper,
 };
