@@ -10,7 +10,7 @@ import Helper from './utils/helper';
 
 import Jsonifier from './interfaces/jsonifier';
 import Observer from './interfaces/observer';
-import ObservableSubject from './interfaces/observable-subject';
+import ObservableEntity from './abstracts/observable-entity';
 
 import Actor from './types/actor';
 
@@ -21,5 +21,5 @@ export {
   Jsonifier,
   Actor,
   Observer,
-  ObservableSubject,
+  ObservableEntity,
 };

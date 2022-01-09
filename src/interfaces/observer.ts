@@ -4,11 +4,11 @@
  * @copyright Copyright (c) 2022 Power Kernel
  */
 
-import ObservableSubject from './observable-subject';
+import ObservableEntity from '../abstracts/observable-entity';
 
 interface Observer {
   // Receive update from subject.
-  update(subject: ObservableSubject): void;
+  update(subject: ObservableEntity): void;
 }
 
 export default Observer;
