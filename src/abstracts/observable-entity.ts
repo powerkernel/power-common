@@ -10,21 +10,21 @@ import Entity from './entity';
 abstract class ObservableEntity extends Entity {
   protected observers: Observer[] = [];
 
-  protected attach(observer: Observer): void {
+  attach(observer: Observer): void {
     const isExist = this.observers.includes(observer);
     if (!isExist) {
       this.observers.push(observer);
     }
   }
 
-  protected detach(observer: Observer): void {
+  detach(observer: Observer): void {
     const observerIndex = this.observers.indexOf(observer);
     if (observerIndex !== -1) {
       this.observers.splice(observerIndex, 1);
     }
   }
 
-  protected notify(): void {
+  notify(): void {
     for (const observer of this.observers) {
       observer.update(this);
     }
