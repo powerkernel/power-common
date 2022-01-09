@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.19](https://github.com/powerkernel/power-common/compare/v0.1.18...v0.1.19) (2022-01-09)
+
+
+### Features
+
+* add observer iinterfaces ([d401692](https://github.com/powerkernel/power-common/commit/d401692f0e64fdb627eb9fc7fe98c09b8f605727))
+
 ### [0.1.18](https://github.com/powerkernel/power-common/compare/v0.1.17...v0.1.18) (2021-12-22)
 
 
