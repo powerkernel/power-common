@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.21](https://github.com/powerkernel/power-common/compare/v0.1.20...v0.1.21) (2022-01-09)
+
+
+### Bug Fixes
+
+* change protected methods to public ([db12691](https://github.com/powerkernel/power-common/commit/db12691b594fb20558edb9fb1c483fe1d1b7058b))
+
 ### [0.1.20](https://github.com/powerkernel/power-common/compare/v0.1.19...v0.1.20) (2022-01-09)
 
 
