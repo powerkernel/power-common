@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.25](https://github.com/powerkernel/power-common/compare/v0.1.24...v0.1.25) (2022-01-11)
+
+
+### Features
+
+* add opt created event type ([3e5e804](https://github.com/powerkernel/power-common/commit/3e5e8048671f7510cc4ca0362ed5b2b7fbed3868))
+
 ### [0.1.24](https://github.com/powerkernel/power-common/compare/v0.1.23...v0.1.24) (2022-01-11)
 
 
