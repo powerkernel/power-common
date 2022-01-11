@@ -4,11 +4,15 @@
  * @copyright Copyright (c) 2022 Power Kernel
  */
 
+import EventMeta from './event-meta';
 import Topics from './topics';
 
 type Event = {
   topic: Topics;
-  data: unknown;
+  data: {
+    meta: EventMeta;
+    data: unknown;
+  };
 };
 
 export default Event;
