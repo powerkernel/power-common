@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.24](https://github.com/powerkernel/power-common/compare/v0.1.23...v0.1.24) (2022-01-11)
+
+
+### Features
+
+* add Event Publisher feature ([59c98d8](https://github.com/powerkernel/power-common/commit/59c98d8be4e236357c5bb2530370fcd987dfe704))
+
 ### [0.1.23](https://github.com/powerkernel/power-common/compare/v0.1.22...v0.1.23) (2022-01-09)
 
 
