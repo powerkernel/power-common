@@ -5,6 +5,6 @@
  */
 
 interface PublisherClient {
-  publish(topic: string, data: string): void;
+  publish(topic: string, data: string): Promise<void>;
 }
 export default PublisherClient;
