@@ -4,7 +4,8 @@
  * @copyright Copyright (c) 2022 Power Kernel
  */
 
-enum Topics {
-  OtpCreated = 'otp.created',
-}
-export default Topics;
+const IDENTIFIERS = {
+  PublisherClient: Symbol.for('PublisherClient'),
+};
+
+export default IDENTIFIERS;

@@ -4,14 +4,17 @@
  * @copyright Copyright (c) 2022 Power Kernel
  */
 
-import PublisherClient from '../interfaces/publisher-client';
+import { inject, injectable } from 'inversify';
+import IDENTIFIERS from './../ico/identifiers';
+import PublisherClient from './../interfaces/publisher-client';
 import Event from './../types/event';
 
+@injectable()
 abstract class EventPublisher<T extends Event> {
   abstract topic: T['topic'];
   protected client: PublisherClient;
 
-  constructor(client: PublisherClient) {
+  constructor(@inject(IDENTIFIERS.PublisherClient) client: PublisherClient) {
     this.client = client;
   }
 

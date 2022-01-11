@@ -12,6 +12,7 @@ import EventPublisher from './abstracts/event-publisher';
 // interfaces
 import Jsonifier from './interfaces/jsonifier';
 import Observer from './interfaces/observer';
+import PublisherClient from './interfaces/publisher-client';
 
 // types
 import Actor from './types/actor';
@@ -31,6 +32,7 @@ export {
   // interfaces
   Jsonifier,
   Observer,
+  PublisherClient,
   // types
   Actor,
   Event,
