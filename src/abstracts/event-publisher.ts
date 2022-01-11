@@ -9,14 +9,10 @@ import Event from './../types/event';
 
 abstract class EventPublisher<T extends Event> {
   abstract topic: T['topic'];
-  protected client: PublisherClient;
-
-  constructor(client: PublisherClient) {
-    this.client = client;
-  }
+  protected client?: PublisherClient;
 
   publish(data: T['data']): void {
-    this.client.publish(this.topic, JSON.stringify(data));
+    this.client?.publish(this.topic, JSON.stringify(data));
   }
 }
 
