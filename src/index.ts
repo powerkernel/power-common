@@ -7,12 +7,12 @@
 // abstracts
 import Entity from './abstracts/entity';
 import ObservableEntity from './abstracts/observable-entity';
-import EventPublisher from './abstracts/event-publisher';
 
 // interfaces
 import Jsonifier from './interfaces/jsonifier';
 import Observer from './interfaces/observer';
 import PublisherClient from './interfaces/publisher-client';
+import EventPublisher from './interfaces/event-publisher';
 
 // types
 import Actor from './types/actor';
@@ -28,11 +28,11 @@ export {
   // abstracts
   Entity,
   ObservableEntity,
-  EventPublisher,
   // interfaces
   Jsonifier,
   Observer,
   PublisherClient,
+  EventPublisher,
   // types
   Actor,
   Event,
