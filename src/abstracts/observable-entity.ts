@@ -8,16 +8,16 @@ import Observer from '../interfaces/observer';
 import Entity from './entity';
 
 abstract class ObservableEntity extends Entity {
-  protected observers: Observer[] = [];
+  protected observers: Observer<ObservableEntity>[] = [];
 
-  attach(observer: Observer): void {
+  attach(observer: Observer<ObservableEntity>): void {
     const isExist = this.observers.includes(observer);
     if (!isExist) {
       this.observers.push(observer);
     }
   }
 
-  detach(observer: Observer): void {
+  detach(observer: Observer<ObservableEntity>): void {
     const observerIndex = this.observers.indexOf(observer);
     if (observerIndex !== -1) {
       this.observers.splice(observerIndex, 1);
