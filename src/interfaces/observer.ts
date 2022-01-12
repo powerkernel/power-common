@@ -6,9 +6,8 @@
 
 import ObservableEntity from '../abstracts/observable-entity';
 
-interface Observer {
-  // Receive update from subject.
-  update(subject: ObservableEntity): void;
+interface Observer<T extends ObservableEntity> {
+  update(subject: T): void;
 }
 
 export default Observer;
