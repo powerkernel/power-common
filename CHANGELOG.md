@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.31](https://github.com/powerkernel/power-common/compare/v0.1.30...v0.1.31) (2022-01-12)
+
+
+### Bug Fixes
+
+* missing generic type for observable entity ([ab43695](https://github.com/powerkernel/power-common/commit/ab43695ad33355d32f44f78e3f555e45cece2f5d))
+
 ### [0.1.30](https://github.com/powerkernel/power-common/compare/v0.1.29...v0.1.30) (2022-01-12)
 
 
