@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.30](https://github.com/powerkernel/power-common/compare/v0.1.29...v0.1.30) (2022-01-12)
+
+
+### Features
+
+* add generic type for observer interface ([9edbae1](https://github.com/powerkernel/power-common/commit/9edbae1fcc6f98b056600bdb5728b8d366fbaa00))
+
 ### [0.1.29](https://github.com/powerkernel/power-common/compare/v0.1.28...v0.1.29) (2022-01-11)
 
 ### [0.1.28](https://github.com/powerkernel/power-common/compare/v0.1.27...v0.1.28) (2022-01-11)
