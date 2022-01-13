@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.32](https://github.com/powerkernel/power-common/compare/v0.1.31...v0.1.32) (2022-01-13)
+
+
+### Features
+
+* add chain handler interface ([4ea9594](https://github.com/powerkernel/power-common/commit/4ea95943b0b547f4e99b5a377e46337a239815df))
+
 ### [0.1.31](https://github.com/powerkernel/power-common/compare/v0.1.30...v0.1.31) (2022-01-12)
 
 
