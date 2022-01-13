@@ -10,7 +10,7 @@ import PublisherClient from './publisher-client';
 interface EventPublisher<T extends Event> {
   topic: T['topic'];
   client: PublisherClient;
-  publish(data: T['data']): Promise<void>;
+  publish(data: T['detail']): Promise<void>;
 }
 
 export default EventPublisher;
