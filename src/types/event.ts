@@ -9,7 +9,7 @@ import Topics from './topics';
 
 type Event = {
   topic: Topics;
-  data: {
+  detail: {
     meta: EventMeta;
     data: unknown;
   };

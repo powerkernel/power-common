@@ -9,9 +9,9 @@ import Topics from './../types/topics';
 
 interface OtpCreatedEvent {
   topic: Topics.OtpCreated;
-  data: {
+  detail: {
     meta: EventMeta;
-    content: {
+    data: {
       id: string;
       identifier: string;
       action: string;
