@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.33](https://github.com/powerkernel/power-common/compare/v0.1.32...v0.1.33) (2022-01-13)
+
+
+### Features
+
+* add more interfaces and refactor event type ([716aef6](https://github.com/powerkernel/power-common/commit/716aef6780298ec4267e988dd4105d13cf3a1ead))
+
 ### [0.1.32](https://github.com/powerkernel/power-common/compare/v0.1.31...v0.1.32) (2022-01-13)
 
 
