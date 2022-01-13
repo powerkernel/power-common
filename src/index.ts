@@ -13,6 +13,8 @@ import Jsonifier from './interfaces/jsonifier';
 import Observer from './interfaces/observer';
 import PublisherClient from './interfaces/publisher-client';
 import EventPublisher from './interfaces/event-publisher';
+import Controller from './interfaces/controller';
+import UseCase from './interfaces/use-case';
 
 // types
 import Actor from './types/actor';
@@ -37,6 +39,8 @@ export {
   PublisherClient,
   EventPublisher,
   ChainHandler,
+  Controller,
+  UseCase,
   // types
   Actor,
   Event,
