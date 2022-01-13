@@ -24,7 +24,7 @@ import Validator from './utils/validator';
 import Helper from './utils/helper';
 import ChainHandler from './interfaces/chain-handler';
 
-import * as events from './events';
+import * as Events from './events';
 
 // exporting
 export {
@@ -45,5 +45,5 @@ export {
   Validator,
   Helper,
   // events
-  events,
+  Events,
 };

@@ -11,7 +11,7 @@ interface OtpCreatedEvent {
   topic: Topics.OtpCreated;
   data: {
     meta: EventMeta;
-    data: {
+    content: {
       id: string;
       identifier: string;
       action: string;
