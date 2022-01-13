@@ -22,6 +22,9 @@ import Topics from './types/topics';
 // utils
 import Validator from './utils/validator';
 import Helper from './utils/helper';
+import ChainHandler from './interfaces/chain-handler';
+
+import * as events from './events';
 
 // exporting
 export {
@@ -33,6 +36,7 @@ export {
   Observer,
   PublisherClient,
   EventPublisher,
+  ChainHandler,
   // types
   Actor,
   Event,
@@ -40,4 +44,6 @@ export {
   // utils
   Validator,
   Helper,
+  // events
+  events,
 };
