@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.34](https://github.com/powerkernel/power-common/compare/v0.1.33...v0.1.34) (2022-01-13)
+
+
+### Bug Fixes
+
+* missing export for Controller and UseCase ([59ecc78](https://github.com/powerkernel/power-common/commit/59ecc78b528c781be2d352f4a61af83cd0001cae))
+
 ### [0.1.33](https://github.com/powerkernel/power-common/compare/v0.1.32...v0.1.33) (2022-01-13)
 
 
