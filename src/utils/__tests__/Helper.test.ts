@@ -27,3 +27,8 @@ it('thorws an error if min is greater than max', () => {
     Helper.randomNumber(10, 5);
   }).toThrow();
 });
+
+it('slugifies the string', () => {
+  const result = Helper.slugify('Hello World');
+  expect(result).toEqual('hello-world');
+});
