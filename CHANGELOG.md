@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.37](https://github.com/powerkernel/power-common/compare/v0.1.36...v0.1.37) (2022-01-18)
+
+
+### Features
+
+* add string slugify ([6a965e9](https://github.com/powerkernel/power-common/commit/6a965e942375c90bb1dea679f950a170e0cbd9cb))
+
 ### [0.1.36](https://github.com/powerkernel/power-common/compare/v0.1.35...v0.1.36) (2022-01-13)
 
 
