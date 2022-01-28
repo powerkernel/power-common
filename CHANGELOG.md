@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.38](https://github.com/powerkernel/power-common/compare/v0.1.37...v0.1.38) (2022-01-28)
+
+
+### Features
+
+* not forcing to use uuid for entity id ([ef5bb7d](https://github.com/powerkernel/power-common/commit/ef5bb7d1b76233902f0c149cc57b424ce1284ff9))
+
 ### [0.1.37](https://github.com/powerkernel/power-common/compare/v0.1.36...v0.1.37) (2022-01-18)
 
 
