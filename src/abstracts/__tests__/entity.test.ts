@@ -19,11 +19,10 @@ it('passes the test for getter and setter', () => {
   expect(entity.updatedAt).toBe(date);
 });
 
-it('throws error if the provided `id` is not valid', () => {
+it('throws error if the provided `id` is empty', () => {
   const entity = new MyEntity();
-
   expect(() => {
-    entity.id = 'not_valid';
+    entity.id = '';
   }).toThrow('Invalid `id`');
 });
 

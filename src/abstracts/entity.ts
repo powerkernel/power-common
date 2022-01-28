@@ -15,7 +15,7 @@ abstract class Entity {
     return this.wrappedId;
   }
   public set id(id: string) {
-    if (!Validator.isUuid(id)) {
+    if (Validator.isEmpty(id)) {
       throw new Error('Invalid `id`');
     }
     this.wrappedId = id;

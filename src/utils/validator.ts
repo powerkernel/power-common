@@ -11,6 +11,10 @@ class Validator {
     return validator.isMobilePhone(number, 'any', { strictMode: true });
   }
 
+  public static isEmpty(str: string): boolean {
+    return validator.isEmpty(str);
+  }
+
   public static isEmail(email: string): boolean {
     return validator.isEmail(email);
   }
