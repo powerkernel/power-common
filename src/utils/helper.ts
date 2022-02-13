@@ -6,10 +6,31 @@
 
 import slugify from 'slugify';
 import { v4 as uuidv4 } from 'uuid';
+import crypto from 'crypto';
 
 class Helper {
   public static uuidV4(): string {
     return uuidv4();
+  }
+
+  public static objectId(): string {
+    const second = (~~(Date.now() / 1000)).toString(16);
+
+    const machineId = crypto
+      .createHash('md5')
+      .update(process.hrtime.bigint().toString(16))
+      .digest('hex')
+      .slice(-6);
+
+    const processId = process.pid.toString(16).slice(-4).padStart(4, '0');
+
+    const counter = process.hrtime
+      .bigint()
+      .toString(16)
+      .slice(-6)
+      .padStart(6, '0');
+
+    return `${second}${machineId}${processId}${counter}`;
   }
 
   public static slugify(string: string): string {
