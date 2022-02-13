@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.39](https://github.com/powerkernel/power-common/compare/v0.1.38...v0.1.39) (2022-02-13)
+
+
+### Features
+
+* add object ID generation function ([2cdf1f5](https://github.com/powerkernel/power-common/commit/2cdf1f5ed26a5f2f1255073431f0fd9986de6d84))
+
 ### [0.1.38](https://github.com/powerkernel/power-common/compare/v0.1.37...v0.1.38) (2022-01-28)
 
 
