@@ -33,6 +33,15 @@ class Helper {
     return `${second}${machineId}${processId}${counter}`;
   }
 
+  public static sliptArray<T>(a: T[], size: number) {
+    let i, j;
+    const output = [];
+    for (i = 0, j = a.length; i < j; i += size) {
+      output.push(a.slice(i, i + size));
+    }
+    return output;
+  }
+
   public static slugify(string: string): string {
     return slugify(string, {
       replacement: '-', // replace spaces with replacement character, defaults to `-`

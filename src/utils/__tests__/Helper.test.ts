@@ -37,3 +37,53 @@ it('should slugify the string', () => {
   const result = Helper.slugify('Hello World');
   expect(result).toEqual('hello-world');
 });
+
+it('should slipt the array by inputed number', () => {
+  const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+  const result1 = Helper.sliptArray(array1, 2);
+  expect(result1).toEqual([
+    [1, 2],
+    [3, 4],
+    [5, 6],
+    [7, 8],
+    [9, 0],
+  ]);
+
+  const array2 = ['Mercury', 'Venus', 'Earth', 'Mars'];
+  const result2 = Helper.sliptArray(array2, 3);
+  expect(result2).toEqual([['Mercury', 'Venus', 'Earth'], ['Mars']]);
+
+  const array3 = [
+    {
+      name: 'Harry',
+      age: 28,
+    },
+    {
+      name: 'Ginny',
+      age: 22,
+    },
+    {
+      name: 'Calvin',
+      age: 30,
+    },
+  ];
+  const result3 = Helper.sliptArray(array3, 2);
+  expect(result3).toEqual([
+    [
+      {
+        name: 'Harry',
+        age: 28,
+      },
+      {
+        name: 'Ginny',
+        age: 22,
+      },
+    ],
+    [
+      {
+        name: 'Calvin',
+        age: 30,
+      },
+    ],
+  ]);
+});
