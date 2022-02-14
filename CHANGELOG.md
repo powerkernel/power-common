@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.40](https://github.com/powerkernel/power-common/compare/v0.1.39...v0.1.40) (2022-02-14)
+
+
+### Features
+
+* add sliptArray function ([bf4ac48](https://github.com/powerkernel/power-common/commit/bf4ac4875a38864a53c2f72890ad8aabcf69f029))
+
 ### [0.1.39](https://github.com/powerkernel/power-common/compare/v0.1.38...v0.1.39) (2022-02-13)
 
 
