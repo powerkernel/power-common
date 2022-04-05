@@ -57,6 +57,10 @@ class Helper {
     }
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
+
+  public static percentageChange(current: number, previous: number): number {
+    return +((current - previous) / Math.abs(previous)).toFixed(2);
+  }
 }
 
 export default Helper;

@@ -87,3 +87,16 @@ it('should slipt the array by inputed number', () => {
     ],
   ]);
 });
+
+it('should calculate the percentage change of 2 numbers', () => {
+  const result1 = Helper.percentageChange(10, 5);
+  expect(result1).toEqual(1.0);
+  const result2 = Helper.percentageChange(5, 10);
+  expect(result2).toEqual(-0.5);
+  const result3 = Helper.percentageChange(5, 5);
+  expect(result3).toEqual(0.0);
+  const result4 = Helper.percentageChange(123, 456);
+  expect(result4).toEqual(-0.73);
+  const result5 = Helper.percentageChange(333, 222);
+  expect(result5).toEqual(0.5);
+});
