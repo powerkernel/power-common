@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.41](https://github.com/powerkernel/power-common/compare/v0.1.40...v0.1.41) (2022-04-05)
+
+
+### Features
+
+* add percentage change function ([f108367](https://github.com/powerkernel/power-common/commit/f10836709b6be66724eaeaf8e801b998e08089a5))
+
 ### [0.1.40](https://github.com/powerkernel/power-common/compare/v0.1.39...v0.1.40) (2022-02-14)
 
 
