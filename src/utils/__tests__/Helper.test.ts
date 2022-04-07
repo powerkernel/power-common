@@ -99,4 +99,14 @@ it('should calculate the percentage change of 2 numbers', () => {
   expect(result4).toEqual(-0.73);
   const result5 = Helper.percentageChange(333, 222);
   expect(result5).toEqual(0.5);
+  const result6 = Helper.percentageChange(10, 0);
+  expect(result6).toEqual(Infinity);
+});
+
+it('should transform a string between camelCase, PascalCase, snake_case and kebab-case', () => {
+  const text = 'Hello Power Kernel';
+  expect(Helper.toKebabCase(text)).toEqual('hello-power-kernel');
+  expect(Helper.toCamelCase(text)).toEqual('helloPowerKernel');
+  expect(Helper.toPascalCase(text)).toEqual('HelloPowerKernel');
+  expect(Helper.toSnakeCase(text)).toEqual('hello_power_kernel');
 });

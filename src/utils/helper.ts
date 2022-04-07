@@ -7,6 +7,7 @@
 import slugify from 'slugify';
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
+import * as changeCase from 'change-case';
 
 class Helper {
   public static uuidV4(): string {
@@ -60,6 +61,22 @@ class Helper {
 
   public static percentageChange(current: number, previous: number): number {
     return +((current - previous) / Math.abs(previous)).toFixed(2);
+  }
+
+  public static toKebabCase(string: string): string {
+    return changeCase.paramCase(string);
+  }
+
+  public static toPascalCase(string: string): string {
+    return changeCase.pascalCase(string);
+  }
+
+  public static toSnakeCase(string: string): string {
+    return changeCase.snakeCase(string);
+  }
+
+  public static toCamelCase(string: string): string {
+    return changeCase.camelCase(string);
   }
 }
 
