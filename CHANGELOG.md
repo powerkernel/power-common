@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.43](https://github.com/powerkernel/power-common/compare/v0.1.42...v0.1.43) (2022-04-07)
+
+
+### Features
+
+* add change case ([427d5dc](https://github.com/powerkernel/power-common/commit/427d5dc86c2cbaa26d7d9e495532e0110e3d02a1))
+
 ### [0.1.42](https://github.com/powerkernel/power-common/compare/v0.1.41...v0.1.42) (2022-04-05)
 
 ### [0.1.41](https://github.com/powerkernel/power-common/compare/v0.1.40...v0.1.41) (2022-04-05)
