@@ -1,5 +1,5 @@
 {
-  "name": "@powerkernel/power-common",
+  "name": "@powerkernel/common",
   "version": "0.1.43",
   "description": "Power Kernel common libarary",
   "main": "./dist/index.js",

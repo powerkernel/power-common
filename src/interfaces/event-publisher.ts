@@ -7,7 +7,7 @@
 import Event from './../types/event';
 import PublisherClient from './publisher-client';
 
-interface EventPublisher<T extends Event> {
+interface EventPublisher<T extends Event<T['topic']>> {
   topic: T['topic'];
   client: PublisherClient;
   publish(data: T['detail']): Promise<void>;

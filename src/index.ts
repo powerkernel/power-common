@@ -17,14 +17,11 @@ import EventPublisher from './interfaces/event-publisher';
 // types
 import Actor from './types/actor';
 import Event from './types/event';
-import Topics from './types/topics';
 
 // utils
 import Validator from './utils/validator';
 import Helper from './utils/helper';
 import ChainHandler from './interfaces/chain-handler';
-
-import * as Events from './events';
 
 // exporting
 export {
@@ -40,10 +37,7 @@ export {
   // types
   Actor,
   Event,
-  Topics,
   // utils
   Validator,
   Helper,
-  // events
-  Events,
 };

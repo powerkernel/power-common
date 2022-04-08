@@ -5,10 +5,9 @@
  */
 
 import EventMeta from './event-meta';
-import Topics from './topics';
 
-type Event = {
-  topic: Topics;
+type Event<T> = {
+  topic: T;
   detail: {
     meta: EventMeta;
     data: unknown;
