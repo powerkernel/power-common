@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2022 Power Kernel
  */
 
-import EventMeta from './event-meta';
+import EventMeta from "./event-meta";
 
 type Event<T> = {
   topic: T;

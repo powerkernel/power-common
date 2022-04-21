@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
-import Validator from './../utils/validator';
+import Validator from "./../utils/validator";
 
 abstract class Entity {
   protected wrappedId!: string;
@@ -16,7 +16,7 @@ abstract class Entity {
   }
   public set id(id: string) {
     if (Validator.isEmpty(id)) {
-      throw new Error('Invalid `id`');
+      throw new Error("Invalid `id`");
     }
     this.wrappedId = id;
   }
@@ -26,7 +26,7 @@ abstract class Entity {
   }
   public set createdAt(date: string) {
     if (!Validator.isIsoDate(date)) {
-      throw new Error('Invalid `createdAt`');
+      throw new Error("Invalid `createdAt`");
     }
     this.wrappedCreatedAt = date;
   }
@@ -36,7 +36,7 @@ abstract class Entity {
   }
   public set updatedAt(date: string) {
     if (!Validator.isIsoDate(date)) {
-      throw new Error('Invalid `updatedAt`');
+      throw new Error("Invalid `updatedAt`");
     }
     this.wrappedUpdatedAt = date;
   }

@@ -4,8 +4,8 @@
  * @copyright Copyright (c) 2022 Power Kernel
  */
 
-import Observer from '../interfaces/observer';
-import Entity from './entity';
+import Observer from "../interfaces/observer";
+import Entity from "./entity";
 
 abstract class ObservableEntity extends Entity {
   protected observers: Observer<ObservableEntity>[] = [];
