@@ -22,6 +22,7 @@ import Event from './types/event';
 import Validator from './utils/validator';
 import Helper from './utils/helper';
 import ChainHandler from './interfaces/chain-handler';
+import EventMeta from './types/event-meta';
 
 // exporting
 export {
@@ -37,6 +38,7 @@ export {
   // types
   Actor,
   Event,
+  EventMeta,
   // utils
   Validator,
   Helper,
