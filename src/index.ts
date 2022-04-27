@@ -7,24 +7,24 @@
 // abstracts
 import Entity from "./abstracts/entity";
 import ObservableEntity from "./abstracts/observable-entity";
+import EventPublisher from "./abstracts/event-publisher";
+import EventSubscriber from "./abstracts/event-subscriber";
 
 // interfaces
 import Jsonifier from "./interfaces/jsonifier";
 import Observer from "./interfaces/observer";
 import PublisherClient from "./interfaces/publisher-client";
-import EventPublisher from "./interfaces/event-publisher";
+import ChainHandler from "./interfaces/chain-handler";
+import SubscriberClient from "./interfaces/subscriber-client";
 
 // types
 import Actor from "./types/actor";
 import Event from "./types/event";
+import EventMeta from "./types/event-meta";
 
 // utils
 import Validator from "./utils/validator";
 import Helper from "./utils/helper";
-import ChainHandler from "./interfaces/chain-handler";
-import EventMeta from "./types/event-meta";
-import EventSubscriber from "./interfaces/event-subscriber";
-import SubscriberClient from "./interfaces/subscriber-client";
 
 // exporting
 export {

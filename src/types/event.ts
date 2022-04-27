@@ -6,8 +6,8 @@
 
 import EventMeta from "./event-meta";
 
-type Event<T> = {
-  topic: T;
+type Event = {
+  topic: string;
   detail: {
     meta: EventMeta;
     data: unknown;
