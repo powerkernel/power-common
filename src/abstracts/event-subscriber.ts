@@ -9,7 +9,7 @@ import Event from "./../types/event";
 
 abstract class EventSubscriber<T extends Event> {
   abstract readonly topic: T["topic"];
-  abstract onMessage(data: T["detail"]): void;
+  abstract onMessage(data: T["detail"]): Promise<void>;
   protected client: SubscriberClient;
 
   constructor(client: SubscriberClient) {
@@ -17,8 +17,8 @@ abstract class EventSubscriber<T extends Event> {
   }
 
   async subscribe(): Promise<void> {
-    this.client.subscribe(this.topic, (msg) => {
-      this.onMessage(JSON.parse(msg));
+    this.client.subscribe(this.topic, async (msg) => {
+      await this.onMessage(JSON.parse(msg));
     });
   }
 }

@@ -5,6 +5,9 @@
  */
 
 interface SubscriberClient {
-  subscribe(topic: string, callback: (message: string) => void): Promise<void>;
+  subscribe(
+    topic: string,
+    callback: (message: string) => Promise<void>
+  ): Promise<void>;
 }
 export default SubscriberClient;
