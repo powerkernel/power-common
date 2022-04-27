@@ -8,6 +8,7 @@ import SubscriberClient from "../interfaces/subscriber-client";
 import Event from "./../types/event";
 
 abstract class EventSubscriber<T extends Event> {
+  abstract readonly service: string;
   abstract readonly topic: T["topic"];
   abstract onMessage(data: T["detail"]): Promise<void>;
   protected client: SubscriberClient;
