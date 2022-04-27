@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7](https://github.com/powerkernel/common/compare/v0.2.6...v0.2.7) (2022-04-27)
+
+
+### Features
+
+* enable promise pub/sub ([13090b1](https://github.com/powerkernel/common/commit/13090b16d63e00f9bda6e7103d705529fa9d3c4a))
+
 ### [0.2.6](https://github.com/powerkernel/common/compare/v0.2.5...v0.2.6) (2022-04-27)
 
 ### [0.2.5](https://github.com/powerkernel/common/compare/v0.2.4...v0.2.5) (2022-04-27)
