@@ -8,7 +8,7 @@ import Event from "../types/event";
 import PublisherClient from "../interfaces/publisher-client";
 
 abstract class EventPublisher<T extends Event> {
-  abstract topic: T["topic"];
+  abstract readonly topic: T["topic"];
   protected client: PublisherClient;
 
   constructor(client: PublisherClient) {
