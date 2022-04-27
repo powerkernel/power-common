@@ -23,6 +23,8 @@ import Validator from "./utils/validator";
 import Helper from "./utils/helper";
 import ChainHandler from "./interfaces/chain-handler";
 import EventMeta from "./types/event-meta";
+import EventSubscriber from "./interfaces/event-subscriber";
+import SubscriberClient from "./interfaces/subscriber-client";
 
 // exporting
 export {
@@ -33,7 +35,9 @@ export {
   Jsonifier,
   Observer,
   PublisherClient,
+  SubscriberClient,
   EventPublisher,
+  EventSubscriber,
   ChainHandler,
   // types
   Actor,
