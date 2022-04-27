@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.8](https://github.com/powerkernel/common/compare/v0.2.7...v0.2.8) (2022-04-27)
+
+
+### Features
+
+* add service attr for subscriber ([48f7295](https://github.com/powerkernel/common/commit/48f729563a9cb9db7c45e6a065d79a2a5b938ede))
+
 ### [0.2.7](https://github.com/powerkernel/common/compare/v0.2.6...v0.2.7) (2022-04-27)
 
 
