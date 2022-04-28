@@ -6,7 +6,7 @@ name: Node.js Package
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   test:
@@ -16,7 +16,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          #cache: "npm"
       - run: npm ci
       - run: npm test
 
@@ -28,7 +27,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          #cache: "npm"
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm run build
