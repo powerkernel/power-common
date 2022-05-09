@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10](https://github.com/powerkernel/common/compare/v0.2.9...v0.2.10) (2022-05-09)
+
+
+### Features
+
+* add md5 ([8d5609b](https://github.com/powerkernel/common/commit/8d5609b5042f6b1bb13d4d6de6fb353cb9fb3e25))
+
 ### [0.2.9](https://github.com/powerkernel/common/compare/v0.2.8...v0.2.9) (2022-04-27)
 
 ### [0.2.8](https://github.com/powerkernel/common/compare/v0.2.7...v0.2.8) (2022-04-27)
