@@ -34,8 +34,10 @@ it("should thorw an error if min is greater than max", () => {
 });
 
 it("should slugify the string", () => {
-  const result = Helper.slugify("Hello World");
-  expect(result).toEqual("hello-world");
+  expect(Helper.slugify("Hello World")).toEqual("hello-world");
+  expect(Helper.slugify("Polygon bridge & staking")).toEqual(
+    "polygon-bridge-and-staking"
+  );
 });
 
 it("should slipt the array by inputed number", () => {
