@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.12](https://github.com/powerkernel/common/compare/v0.2.11...v0.2.12) (2022-06-02)
+
+
+### Others
+
+* config version json ([1025ff9](https://github.com/powerkernel/common/commit/1025ff9421d7c033ead90bd1c3459dbb913847b6))
+* improve test ([0b8afcd](https://github.com/powerkernel/common/commit/0b8afcd62c6d2700e440d23c16fe1a106baa8237))
+
 ### [0.2.11](https://github.com/powerkernel/common/compare/v0.2.10...v0.2.11) (2022-05-09)
 
 ### [0.2.10](https://github.com/powerkernel/common/compare/v0.2.9...v0.2.10) (2022-05-09)
