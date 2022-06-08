@@ -38,6 +38,7 @@ it("should slugify the string", () => {
   expect(Helper.slugify("Polygon bridge & staking")).toEqual(
     "polygon-bridge-and-staking"
   );
+  expect(Helper.slugify("Duy (Harry)")).toEqual("duy-harry");
 });
 
 it("should slipt the array by inputed number", () => {

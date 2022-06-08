@@ -47,6 +47,7 @@ class Helper {
     return slugify(string, {
       replacement: "-", // replace spaces with replacement character, defaults to `-`
       lower: true, // convert to lower case, defaults to `false`
+      remove: /[*+~.()'"!:@]/g, // remove
       strict: false, // strip special characters except replacement, defaults to `false`
       trim: true, // trim leading and trailing replacement chars, defaults to `true`
     });
