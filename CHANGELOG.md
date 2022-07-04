@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.14](https://github.com/powerkernel/common/compare/v0.2.13...v0.2.14) (2022-07-04)
+
+
+### Others
+
+* **deps:** update commitlint monorepo to v17.0.3 ([b37a14c](https://github.com/powerkernel/common/commit/b37a14c3fcc0fee0506567c69ad4459fbed1c09d))
+* **deps:** update dependency @types/jest to v28.1.2 ([aa4107c](https://github.com/powerkernel/common/commit/aa4107cf577735b10f16578f8b9e7da76108c229))
+* **deps:** update dependency @types/jest to v28.1.3 ([1e4b91e](https://github.com/powerkernel/common/commit/1e4b91e4f3d44484b751427bfce2a20306060d4c))
+* **deps:** update dependency @types/jest to v28.1.4 ([50ac1bf](https://github.com/powerkernel/common/commit/50ac1bfa6a68186a864fe94363d97f3e851b8101))
+* **deps:** update dependency @types/validator to v13.7.4 ([2058806](https://github.com/powerkernel/common/commit/205880663e41a59c34a790288a52a34dc38a54ef))
+* **deps:** update dependency eslint to v8.18.0 ([1417804](https://github.com/powerkernel/common/commit/14178044b664cf132884d8af0e1a13906341f863))
+* **deps:** update dependency eslint to v8.19.0 ([63b612d](https://github.com/powerkernel/common/commit/63b612d19900f3e514d0984248e0eba71b5e7cfc))
+* **deps:** update dependency jest to v28.1.2 ([a20d002](https://github.com/powerkernel/common/commit/a20d002f9b55ac823a033ae52ca36e484c2cf9bb))
+* **deps:** update dependency prettier to v2.7.0 ([ae1c0a7](https://github.com/powerkernel/common/commit/ae1c0a7a16e59be943becac9c6775296a25a2d3a))
+* **deps:** update dependency prettier to v2.7.1 ([612f44b](https://github.com/powerkernel/common/commit/612f44bda31fc14be9caeecc95705202d638cb3f))
+* **deps:** update dependency ts-jest to v28.0.5 ([7b7b46d](https://github.com/powerkernel/common/commit/7b7b46da4a355bbcee715de76c22298084775d0c))
+* **deps:** update dependency typescript to v4.7.4 ([260192e](https://github.com/powerkernel/common/commit/260192ee947cbbb2bd5bd549037de6dc30e6edff))
+* **deps:** update typescript-eslint monorepo to v5.28.0 ([aa5063b](https://github.com/powerkernel/common/commit/aa5063b112609d72849d3f0c2936d277b09acc8c))
+* **deps:** update typescript-eslint monorepo to v5.29.0 ([5c387b6](https://github.com/powerkernel/common/commit/5c387b6ff387e3835267bd7640ca114af4007646))
+* **deps:** update typescript-eslint monorepo to v5.30.0 ([edd698a](https://github.com/powerkernel/common/commit/edd698aa2768179f03dd5735edabe0c411d849c4))
+* **deps:** update typescript-eslint monorepo to v5.30.3 ([0317097](https://github.com/powerkernel/common/commit/0317097166379d4da48cc553d79dea4fe1bdc8c0))
+* **deps:** update typescript-eslint monorepo to v5.30.4 ([f3f805e](https://github.com/powerkernel/common/commit/f3f805ead4c0d695c133c3f0d1f1bbe922aabcf4))
+* replace slugify with slug ([b4f6f9f](https://github.com/powerkernel/common/commit/b4f6f9fc205c65904d7f5913a514801b2ad0008d))
+
 ### [0.2.13](https://github.com/powerkernel/common/compare/v0.2.12...v0.2.13) (2022-06-08)
 
 
