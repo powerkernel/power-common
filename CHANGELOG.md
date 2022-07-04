@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.15](https://github.com/powerkernel/common/compare/v0.2.14...v0.2.15) (2022-07-04)
+
+
+### Others
+
+* **deps:** update typescript-eslint monorepo to v5.30.5 ([cf948f7](https://github.com/powerkernel/common/commit/cf948f7cee66d7ea8427b7fa42fdc85c06f76df3))
+
 ### [0.2.14](https://github.com/powerkernel/common/compare/v0.2.13...v0.2.14) (2022-07-04)
 
 
