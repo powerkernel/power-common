@@ -36,9 +36,12 @@ it("should thorw an error if min is greater than max", () => {
 it("should slugify the string", () => {
   expect(Helper.slugify("Hello World")).toEqual("hello-world");
   expect(Helper.slugify("Polygon bridge & staking")).toEqual(
-    "polygon-bridge-and-staking"
+    "polygon-bridge-staking"
   );
   expect(Helper.slugify("Duy (Harry)")).toEqual("duy-harry");
+  expect(Helper.slugify("Hello, world; Welcome!")).toEqual(
+    "hello-world-welcome"
+  );
 });
 
 it("should slipt the array by inputed number", () => {

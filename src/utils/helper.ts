@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2021 Power Kernel
  */
 
-import slugify from "slugify";
+import slug from "slug";
 import { v4 as uuidv4 } from "uuid";
 import crypto from "crypto";
 import * as changeCase from "change-case";
@@ -44,13 +44,7 @@ class Helper {
   }
 
   public static slugify(string: string): string {
-    return slugify(string, {
-      replacement: "-", // replace spaces with replacement character, defaults to `-`
-      lower: true, // convert to lower case, defaults to `false`
-      remove: /[*+~.()'"!:@]/g, // remove
-      strict: false, // strip special characters except replacement, defaults to `false`
-      trim: true, // trim leading and trailing replacement chars, defaults to `true`
-    });
+    return slug(string);
   }
 
   public static randomNumber(min: number, max: number): number {
