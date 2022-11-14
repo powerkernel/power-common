@@ -5,7 +5,7 @@
  */
 
 import validator from "validator";
-import Helper from "./../helper";
+import Helper from "../helper";
 
 it("should generate a v4 of UUID", () => {
   const uuid = Helper.uuidV4();
