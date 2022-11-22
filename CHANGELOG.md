@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.18](https://github.com/powerkernel/common/compare/v0.2.17...v0.2.18) (2022-11-22)
+
+
+### Others
+
+* fix ts 4.9 problem ([b863cad](https://github.com/powerkernel/common/commit/b863cadb6ea86cd91f65a997fd8866effaad8dea))
+* rename file ([0eee719](https://github.com/powerkernel/common/commit/0eee719d59a678ba953cc5af5657680c5195aade))
+
 ### [0.2.17](https://github.com/powerkernel/common/compare/v0.2.16...v0.2.17) (2022-11-22)
 
 
