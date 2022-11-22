@@ -122,7 +122,7 @@ it("should generate a md5 string", () => {
   expect(md5).toEqual("1bc29b36f623ba82aaf6724fd3b16718");
 });
 
-it("should convert topics to NATS streams", () => {
+it("should convert the array of topics to NATS streams", () => {
   const streams = Helper.topicsToStreams([
     "obj1.act1",
     "obj2.act2",
