@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.17](https://github.com/powerkernel/common/compare/v0.2.16...v0.2.17) (2022-11-22)
+
+
+### Features
+
+* adds topics to streams conversation ([c2c0009](https://github.com/powerkernel/common/commit/c2c0009e2716ad41b769bd46e5caec0658ad1362))
+
+
+### Others
+
+* **deps:** update commitlint monorepo to v17.3.0 ([f6cd7a0](https://github.com/powerkernel/common/commit/f6cd7a0dcf7c513e2139ddd36a37cd1d06f8a06e))
+* **deps:** update dependency @types/jest to v29.2.3 ([46d7959](https://github.com/powerkernel/common/commit/46d795980c2cf7fc1a841eadb684b3220fcfb467))
+* **deps:** update dependency eslint to v8.28.0 ([a69bd0b](https://github.com/powerkernel/common/commit/a69bd0b829f826842808b99d38bcfaad5f68be64))
+* **deps:** update dependency typescript to v4.9.3 ([99c06e6](https://github.com/powerkernel/common/commit/99c06e63602ea93963e3216a8265012b14ff9c85))
+* **deps:** update typescript-eslint monorepo to v5.44.0 ([a62c266](https://github.com/powerkernel/common/commit/a62c266f101d171f97489ea7369ba5d4e7ed8fbf))
+* update CI config ([b9e1756](https://github.com/powerkernel/common/commit/b9e175648bffa9ad3f8f1b31957b574a7d716eaf))
+
 ### [0.2.16](https://github.com/powerkernel/common/compare/v0.2.15...v0.2.16) (2022-11-14)
 
 
