@@ -77,6 +77,18 @@ class Helper {
   public static md5(string: string): string {
     return crypto.createHash("md5").update(string).digest("hex");
   }
+
+  public static topicsToStreams(topics: string[]): string[] {
+    const streams = topics.map((topic) => {
+      const [object] = topic.split(".");
+      return object.trim();
+    });
+
+    // remove duplicate and empty
+    return streams.filter((x, i) => {
+      return i === streams.indexOf(x) && x !== "";
+    });
+  }
 }
 
 export default Helper;
