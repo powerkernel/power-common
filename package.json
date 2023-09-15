@@ -35,7 +35,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
-    "@types/jest": "29.5.4",
+    "@types/jest": "29.5.5",
     "@types/slug": "5.0.4",
     "@types/uuid": "9.0.4",
     "@types/validator": "13.11.1",
